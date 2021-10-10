@@ -9,7 +9,7 @@ var level = 0;
 
 
 
-$(document).keypress(function () {
+$("h1").click(function () {
 
   if (!started) {
     $("#level-title").text("Level " + level);
